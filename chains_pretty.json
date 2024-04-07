@@ -9873,7 +9873,7 @@
     "type": "L2",
     "chain": "eip155-1",
     "bridges": [{
-      "url": "https://mint-sepolia-testnet-ijtsrc4ffq.testnets.rollbridge.app"
+      "url": "https://sepolia-testnet-bridge.mintchain.io"
     }]
   }
 }, {
