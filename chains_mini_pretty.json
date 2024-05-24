@@ -788,7 +788,7 @@
     "symbol": "ETC",
     "decimals": 18
   },
-  "rpc": ["https://etc.rivet.link", "https://besu-at.etc-network.info", "https://besu-de.etc-network.info", "https://geth-at.etc-network.info", "https://geth-de.etc-network.info", "https://etc.etcdesktop.com", "https://rpc.etcinscribe.com", "https://etc.mytokenpocket.vip"],
+  "rpc": ["https://etc.rivet.link", "https://besu-at.etc-network.info", "https://geth-at.etc-network.info", "https://etc.etcdesktop.com", "https://etc.mytokenpocket.vip"],
   "faucets": [],
   "infoURL": "https://ethereumclassic.org"
 }, {
@@ -1792,6 +1792,19 @@
   "rpc": ["https://rpc.woop.ai/rpc"],
   "faucets": [],
   "infoURL": "https://wikiwoop.com"
+}, {
+  "name": "EternalCoin Mainnet",
+  "chainId": 140,
+  "shortName": "Eter",
+  "networkId": 140,
+  "nativeCurrency": {
+    "name": "Eternal",
+    "symbol": "Eter",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.eternalcoin.io/v1", "ws://mainnet.eternalcoin.io/v1/ws"],
+  "faucets": [],
+  "infoURL": "https://eternalcoin.io"
 }, {
   "name": "Openpiece Testnet",
   "chainId": 141,
@@ -6486,6 +6499,19 @@
   "faucets": [],
   "infoURL": "https://atheios.org"
 }, {
+  "name": "Gravity Alpha Mainnet",
+  "chainId": 1625,
+  "shortName": "gravity",
+  "networkId": 1625,
+  "nativeCurrency": {
+    "name": "Gravity",
+    "symbol": "G.",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gravity.xyz"],
+  "faucets": [],
+  "infoURL": "https://gravity.xyz"
+}, {
   "name": "Btachain",
   "chainId": 1657,
   "shortName": "bta",
@@ -7174,6 +7200,19 @@
   "rpc": ["https://testnet.edexa.network/rpc", "https://io-dataseed1.testnet.edexa.io-market.com/rpc"],
   "faucets": ["https://faucet.edexa.com/"],
   "infoURL": "https://edexa.network/"
+}, {
+  "name": "Sanko",
+  "chainId": 1996,
+  "shortName": "Sanko",
+  "networkId": 1996,
+  "nativeCurrency": {
+    "name": "DMT",
+    "symbol": "DMT",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.sanko.xyz"],
+  "faucets": [],
+  "infoURL": "https://sanko.xyz/"
 }, {
   "name": "Kyoto Testnet",
   "chainId": 1998,
@@ -10477,6 +10516,19 @@
   "faucets": ["https://faucet.goldsmartchain.com"],
   "infoURL": "https://goldsmartchain.com"
 }, {
+  "name": "Pools Mainnet",
+  "chainId": 6868,
+  "shortName": "POOLS",
+  "networkId": 6868,
+  "nativeCurrency": {
+    "name": "POOLS Native Token",
+    "symbol": "POOLS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.poolsmobility.com"],
+  "faucets": [],
+  "infoURL": "https://www.poolschain.org"
+}, {
   "name": "Tomb Chain Mainnet",
   "chainId": 6969,
   "shortName": "tombchain",
@@ -11504,6 +11556,58 @@
   "faucets": [],
   "infoURL": "https://jibchain.net"
 }, {
+  "name": "Algen",
+  "chainId": 8911,
+  "shortName": "alg",
+  "networkId": 8911,
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.algen.network"],
+  "faucets": [],
+  "infoURL": "https://www.algen.network"
+}, {
+  "name": "Algen Testnet",
+  "chainId": 8912,
+  "shortName": "algTest",
+  "networkId": 8912,
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.test.algen.network"],
+  "faucets": [],
+  "infoURL": "https://www.algen.network"
+}, {
+  "name": "Algen Layer2",
+  "chainId": 8921,
+  "shortName": "algl2",
+  "networkId": 8921,
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.alg2.algen.network"],
+  "faucets": [],
+  "infoURL": "https://www.algen.network"
+}, {
+  "name": "Algen Layer2 Testnet",
+  "chainId": 8922,
+  "shortName": "algl2Test",
+  "networkId": 8922,
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.alg2-test.algen.network"],
+  "faucets": [],
+  "infoURL": "https://www.algen.network"
+}, {
   "name": "Giant Mammoth Mainnet",
   "chainId": 8989,
   "shortName": "gmmt",
@@ -12127,6 +12231,19 @@
   "rpc": ["https://node.0xtchain.com"],
   "faucets": [],
   "infoURL": "https://www.0xtrade.finance/"
+}, {
+  "name": "TAO EVM Mainnet",
+  "chainId": 10321,
+  "shortName": "TAOm",
+  "networkId": 10321,
+  "nativeCurrency": {
+    "name": "TAO",
+    "symbol": "TAO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.taoevm.io"],
+  "faucets": [],
+  "infoURL": "https://taoevm.io"
 }, {
   "name": "TAO EVM Testnet",
   "chainId": 10324,
@@ -13270,6 +13387,19 @@
   },
   "rpc": ["https://rpc.dcpay.io"],
   "faucets": [],
+  "infoURL": "https://dcpay.io"
+}, {
+  "name": "DCpay Testnet",
+  "chainId": 21224,
+  "shortName": "DCPt",
+  "networkId": 21224,
+  "nativeCurrency": {
+    "name": "DCP",
+    "symbol": "DCP",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.dcpay.io"],
+  "faucets": ["https://faucet.dcpay.io"],
   "infoURL": "https://dcpay.io"
 }, {
   "name": "CENNZnet Azalea",

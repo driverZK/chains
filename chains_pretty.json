@@ -1240,7 +1240,7 @@
   "status": "active",
   "chain": "ETC",
   "icon": "ethereumclassic",
-  "rpc": ["https://etc.rivet.link", "https://besu-at.etc-network.info", "https://besu-de.etc-network.info", "https://geth-at.etc-network.info", "https://geth-de.etc-network.info", "https://etc.etcdesktop.com", "https://rpc.etcinscribe.com", "https://etc.mytokenpocket.vip"],
+  "rpc": ["https://etc.rivet.link", "https://besu-at.etc-network.info", "https://geth-at.etc-network.info", "https://etc.etcdesktop.com", "https://etc.mytokenpocket.vip"],
   "features": [{
     "name": "EIP155"
   }],
@@ -2845,6 +2845,21 @@
     "url": "https://explorer.wikiwoop.com",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "EternalCoin Mainnet",
+  "chain": "Eter",
+  "icon": "eternal",
+  "rpc": ["https://mainnet.eternalcoin.io/v1", "ws://mainnet.eternalcoin.io/v1/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Eternal",
+    "symbol": "Eter",
+    "decimals": 18
+  },
+  "infoURL": "https://eternalcoin.io",
+  "shortName": "Eter",
+  "chainId": 140,
+  "networkId": 140
 }, {
   "name": "Openpiece Testnet",
   "chain": "OPENPIECE",
@@ -10409,6 +10424,40 @@
   "networkId": 11235813,
   "slip44": 1620
 }, {
+  "name": "Gravity Alpha Mainnet",
+  "chain": "Gravity",
+  "rpc": ["https://rpc.gravity.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Gravity",
+    "symbol": "G.",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }, {
+    "name": "EIP1108"
+  }],
+  "infoURL": "https://gravity.xyz",
+  "shortName": "gravity",
+  "chainId": 1625,
+  "networkId": 1625,
+  "icon": "gravity",
+  "explorers": [{
+    "name": "Gravity Alpha Mainnet Explorer",
+    "url": "https://explorer.gravity.xyz",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.gravity.xyz"
+    }]
+  }
+}, {
   "name": "Btachain",
   "chain": "btachain",
   "rpc": ["https://dataseed1.btachain.com/"],
@@ -11507,6 +11556,26 @@
   "explorers": [{
     "name": "edexa-testnet",
     "url": "https://explorer.testnet.edexa.network",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Sanko",
+  "chain": "Sanko",
+  "rpc": ["https://mainnet.sanko.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DMT",
+    "symbol": "DMT",
+    "decimals": 18
+  },
+  "infoURL": "https://sanko.xyz/",
+  "shortName": "Sanko",
+  "chainId": 1996,
+  "networkId": 1996,
+  "icon": "sanko",
+  "explorers": [{
+    "name": "Sanko Explorer",
+    "url": "https://explorer.sanko.xyz",
     "standard": "EIP3091"
   }]
 }, {
@@ -16914,6 +16983,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Pools Mainnet",
+  "chain": "Pools",
+  "rpc": ["https://rpc.poolsmobility.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "POOLS Native Token",
+    "symbol": "POOLS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.poolschain.org",
+  "shortName": "POOLS",
+  "icon": "POOLS",
+  "chainId": 6868,
+  "networkId": 6868,
+  "slip44": 6868,
+  "explorers": [{
+    "name": "poolsscan",
+    "url": "https://scan.poolsmobility.com",
+    "icon": "POOLS",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Tomb Chain Mainnet",
   "chain": "Tomb Chain",
   "rpc": ["https://rpc.tombchain.com/"],
@@ -18525,6 +18616,98 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Algen",
+  "chain": "ALG",
+  "rpc": ["https://rpc.algen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.algen.network",
+  "shortName": "alg",
+  "chainId": 8911,
+  "networkId": 8911,
+  "icon": "alg",
+  "explorers": [{
+    "name": "algscan",
+    "url": "https://scan.algen.network",
+    "icon": "alg",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Algen Testnet",
+  "chain": "ALG",
+  "rpc": ["https://rpc.test.algen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.algen.network",
+  "shortName": "algTest",
+  "chainId": 8912,
+  "networkId": 8912,
+  "icon": "alg",
+  "explorers": [{
+    "name": "algscan",
+    "url": "https://scan.test.algen.network",
+    "icon": "alg",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Algen Layer2",
+  "chain": "ALG L2",
+  "rpc": ["https://rpc.alg2.algen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.algen.network",
+  "shortName": "algl2",
+  "chainId": 8921,
+  "networkId": 8921,
+  "icon": "algl2",
+  "explorers": [{
+    "name": "algl2scan",
+    "url": "https://scan.alg2.algen.network",
+    "icon": "algl2",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "chain": "eip155-8911",
+    "type": "shard"
+  }
+}, {
+  "name": "Algen Layer2 Testnet",
+  "chain": "ALG L2",
+  "rpc": ["https://rpc.alg2-test.algen.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ALG",
+    "symbol": "ALG",
+    "decimals": 18
+  },
+  "infoURL": "https://www.algen.network",
+  "shortName": "algl2Test",
+  "chainId": 8922,
+  "networkId": 8922,
+  "icon": "algl2",
+  "explorers": [{
+    "name": "algl2scan",
+    "url": "https://scan.alg2-test.algen.network",
+    "icon": "algl2",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "chain": "eip155-8921",
+    "type": "shard"
+  }
+}, {
   "name": "Giant Mammoth Mainnet",
   "title": "Giant Mammoth Chain",
   "chain": "GMMT",
@@ -19481,6 +19664,26 @@
     "name": "0xtrade Scan",
     "url": "https://www.0xtscan.com",
     "standard": "none"
+  }]
+}, {
+  "name": "TAO EVM Mainnet",
+  "chain": "TAO EVM",
+  "icon": "taoevmIcon",
+  "rpc": ["https://rpc.taoevm.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TAO",
+    "symbol": "TAO",
+    "decimals": 18
+  },
+  "infoURL": "https://taoevm.io",
+  "shortName": "TAOm",
+  "chainId": 10321,
+  "networkId": 10321,
+  "explorers": [{
+    "name": "TAO Mainnet Explorer",
+    "url": "https://taoscan.org",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "TAO EVM Testnet",
@@ -21401,6 +21604,26 @@
   "explorers": [{
     "name": "DCpay Mainnet Explorer",
     "url": "https://mainnet.dcpay.io",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "DCpay Testnet",
+  "chain": "DCpay",
+  "icon": "dcpayIcon",
+  "rpc": ["https://testnet-rpc.dcpay.io"],
+  "faucets": ["https://faucet.dcpay.io"],
+  "nativeCurrency": {
+    "name": "DCP",
+    "symbol": "DCP",
+    "decimals": 18
+  },
+  "infoURL": "https://dcpay.io",
+  "shortName": "DCPt",
+  "chainId": 21224,
+  "networkId": 21224,
+  "explorers": [{
+    "name": "DCpay Testnet Explorer",
+    "url": "https://testnet.dcpay.io",
     "standard": "EIP3091"
   }]
 }, {
@@ -25693,6 +25916,7 @@
   "shortName": "INOAI",
   "chainId": 88559,
   "networkId": 88559,
+  "icon": "inoai",
   "explorers": [{
     "name": "inoai live",
     "url": "https://inoai.live",
@@ -28329,7 +28553,7 @@
   "networkId": 355110,
   "explorers": [{
     "name": "Bitfinity Mainnet Block Explorer",
-    "url": "https://explorer.testnet.bitfinity.network",
+    "url": "https://explorer.mainnet.bitfinity.network",
     "icon": "bitfinity",
     "standard": "EIP3091"
   }]

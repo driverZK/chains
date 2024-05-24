@@ -351,6 +351,14 @@
     "format": "png"
   }]
 }, {
+  "name": "algl2",
+  "icons": [{
+    "url": "ipfs://QmbLWspX1WryyfhiiuPpG5A7AGBJUvwdZtVPuzZoJyxS23",
+    "width": 323,
+    "height": 323,
+    "format": "png"
+  }]
+}, {
   "name": "venidium",
   "icons": [{
     "url": "ipfs://bafkreiaplwlym5g27jm4mjhotfqq6al2cxp3fnkmzdusqjg7wnipq5wn2e",
@@ -940,6 +948,14 @@
     "url": "ipfs://QmdR9QJjQEh1mBnf2WbJfehverxiP5RDPWMtEECbDP2rc3",
     "width": 512,
     "height": 512,
+    "format": "png"
+  }]
+}, {
+  "name": "alg",
+  "icons": [{
+    "url": "ipfs://QmdSNGv2Atdaexawc4L3uAL7dL5aDREgWwPo2HNayQbpLm",
+    "width": 323,
+    "height": 323,
     "format": "png"
   }]
 }, {
@@ -1788,6 +1804,14 @@
     "url": "ipfs://QmVTahJkdSH3HPYsJMK2GmqfWZjLyxE7cXy1aHEnHU3vp2",
     "width": 250,
     "height": 250,
+    "format": "png"
+  }]
+}, {
+  "name": "inoai",
+  "icons": [{
+    "url": "ipfs://QmdP8zAZEwUbf3pt8t9Ykho866ni5AMgutvkn3cBsV8gKG",
+    "width": 500,
+    "height": 500,
     "format": "png"
   }]
 }, {
@@ -2959,11 +2983,27 @@
     "format": "png"
   }]
 }, {
+  "name": "eternal",
+  "icons": [{
+    "url": "ipfs://bafybeibexfskndvhn5xtrcmpjoifp2ufnzgwiwbfrjcxat55alergskkve",
+    "width": 122,
+    "height": 133,
+    "format": "svg"
+  }]
+}, {
   "name": "agung",
   "icons": [{
     "url": "ipfs://bafkreibkqdof3ztkdhgukwvkacwgrjb27e23hgz5c6mmudzu5hipyvgisa",
     "width": 256,
     "height": 256,
+    "format": "png"
+  }]
+}, {
+  "name": "POOLS",
+  "icons": [{
+    "url": "ipfs://QmV18PRFPkp9pwKKJp4ksVDhMEiqNZ8A5DhQapdNCckeeQ",
+    "width": 512,
+    "height": 512,
     "format": "png"
   }]
 }, {
@@ -3756,6 +3796,14 @@
     "url": "ipfs://QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm",
     "width": 512,
     "height": 512,
+    "format": "png"
+  }]
+}, {
+  "name": "gravity",
+  "icons": [{
+    "url": "ipfs://QmZR15YFtH3EyQp3V7vPkm8PFyevXs2w3y2Trf2k6ikVQL",
+    "width": 480,
+    "height": 480,
     "format": "png"
   }]
 }, {
@@ -4653,6 +4701,14 @@
     "width": 26,
     "height": 41,
     "format": "svg"
+  }]
+}, {
+  "name": "sanko",
+  "icons": [{
+    "url": "ipfs://Qmbwi5FoJdL6HuFmQGQu1sdyoGrSuj45H12tMNTnpRAmLw",
+    "width": 795,
+    "height": 792,
+    "format": "png"
   }]
 }, {
   "name": "zillion",
